@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#163D22">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#163D22"
+
+tools:context="com.levelup.td.tdlevelupquest.LaunchActivity">
+
+    <ImageView
+        android:id="@+id/read_commitment"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="left"
+        android:src="@mipmap/tdlogo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Savings Plans"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We've analyzed your spending habits and made a plan for you to save-up for what you want."
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="10sp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="2dp"/>
+
+    <include layout="@layout/custom_cardview">
+    </include>
+
+    <include layout="@layout/custom_cardview_fast_food">
+    </include>
+
+    <include layout="@layout/custom_cardview_coffee">
+    </include>
+
+    <include layout="@layout/custom_cardview_ride">
+    </include>
+
+    <ImageView
+        android:id="@+id/chair"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="6dp"
+        android:layout_gravity="left"
+        android:src="@mipmap/leatherchair"
+        />
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:text="TD. The Ready Commitment."
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:text="Copyright 2018. TDHacks."
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="18dp"/>
+
+
+</LinearLayout>
+</ScrollView>
+

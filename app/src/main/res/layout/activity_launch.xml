@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+
+    tools:context="com.levelup.td.tdlevelupquest.LaunchActivity">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/tdapplogo"
+        />
+    <ImageView
+        android:id="@+id/read_commitment"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="left"
+        android:src="@mipmap/ready_commitment"
+        />
+    <Button
+        android:id="@+id/firstbutton"
+        android:text="Continue"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</LinearLayout>
+
+
